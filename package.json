@@ -1,6 +1,6 @@
 {
-  "name": "illuminati0n/react-yandex-maps",
-  "version": "4.6.5",
+  "name": "illuminati0n-react-yandex-maps",
+  "version": "4.6.6",
   "description": "Yandex.Maps API bindings for React",
   "typings": "typings/index.d.ts",
   "main": "index.js",
