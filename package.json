@@ -1,6 +1,6 @@
 {
   "name": "react-yandex-maps",
-  "version": "4.6.3",
+  "version": "4.6.4",
   "description": "Yandex.Maps API bindings for React",
   "typings": "typings/index.d.ts",
   "main": "index.js",
@@ -17,7 +17,6 @@
     "clear": "rm -rf dist",
     "prettier": "prettier --write",
     "lint": "eslint",
-    "prepare": "pnpm run build",
     "build": "pnpm run clear && pnpm run microbundle:production && pnpm run microbundle:development",
     "microbundle": "microbundle --jsx React.createElement --name ReactYandexMaps --external react --globals react=React --define process.env.NODE_ENV=\"${NODE_ENV}\",__DOCZ__=false",
     "microbundle:production": "cross-env NODE_ENV=production pnpm run microbundle -- --output ./dist/production",
